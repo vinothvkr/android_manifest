@@ -509,4 +509,6 @@
 
   <include name="snippets/cm.xml" />
 
+  <include name="devices.xml" />
+
 </manifest>

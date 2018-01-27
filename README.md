@@ -1,12 +1,33 @@
 Getting Started
 ---------------
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+### Sync ###
+```bash
+# Initialize local repository
+$ repo init -u https://github.com/vinoobubbly/android_manifest.git -b nougat
 
-    repo init -u https://github.com/vinoobubbly/android_manifest.git -b nougat
+# Sync
+$ repo sync -jX
+```
 
-Then to sync up:
+### Preparing to Build ###
+```bash
+# Set up environment
+$ source build/envsetup.sh
 
-    repo sync
+# Configure jack
+$ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
+# Choose a target
+$ lunch aosp_$device-userdebug
+
+# Build the code
+$ croot
+$ brunch kenzo
+```
+
+### Build ###
+```bash
+#Install Build
+$ cd $OUT
+```

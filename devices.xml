@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Github remote -->
-	<remote name="github"
-		fetch="https://github.com/" />
-
 <!-- Taido -->
 	<project path="device/motorola/taido" name="vinoobubbly/android_device_motorola_taido" remote="github" revision="cm-14.1" />
 	<project path="kernel/motorola/mt6735" name="vinoobubbly/android_kernel_motorola_mt6735" remote="github" revision="cm-14.1" />

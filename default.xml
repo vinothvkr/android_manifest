@@ -6,7 +6,7 @@
 		fetch="https://github.com/" />
 
 <!-- LineageOs Source -->
-	<project path="android" name="LineageOS/android" remote="github" revision="cm-14.1">
+	<project path="android" name="LineageOS/android" remote="github" revision="cm-14.1" />
 
 <!-- Taido -->
 	<project path="device/motorola/taido" name="vinoobubbly/android_device_motorola_taido" remote="github" revision="cm-14.1" />

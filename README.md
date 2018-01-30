@@ -18,9 +18,6 @@ $ source build/envsetup.sh
 # Configure jack
 $ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 
-# Choose a target
-$ lunch aosp_$device-userdebug
-
 # Build the code
 $ croot
 $ brunch DEVICE

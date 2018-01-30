@@ -23,7 +23,7 @@ $ lunch aosp_$device-userdebug
 
 # Build the code
 $ croot
-$ brunch kenzo
+$ brunch DEVICE
 ```
 
 ### Build ###

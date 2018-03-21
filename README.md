@@ -4,7 +4,7 @@ Getting Started
 ### Sync ###
 ```bash
 # Initialize local repository
-$ repo init -u https://github.com/vinoobubbly/android_manifest.git -b nougat
+$ repo init -u https://github.com/vinothvkr/android_manifest.git -b oreo
 
 # Sync
 $ repo sync -jX
